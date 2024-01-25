@@ -1,11 +1,8 @@
 import Navigate from '@/components/common/Navigate';
-import StyledAntdRegistry from '@/lib/registry';
+import { StyledAntdRegistry, ThemeClient } from '@/lib/registry';
 import { Container } from '@/styles/DefaultStyled';
 import GlobalStyles from '@/styles/GlobalStyle';
 import { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'The moment',
@@ -19,15 +16,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <StyledAntdRegistry>
-          <GlobalStyles />
+          <ThemeClient>
+            <GlobalStyles />
 
-          <Container>
-            {children}
+            <Container>
+              {children}
 
-            <Navigate />
-          </Container>
+              <Navigate />
+            </Container>
+          </ThemeClient>
         </StyledAntdRegistry>
       </body>
     </html>

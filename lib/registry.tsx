@@ -1,11 +1,16 @@
 'use client';
 
+import { theme } from '@/styles/theme';
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import { useServerInsertedHTML } from 'next/navigation';
 import React, { useState } from 'react';
-import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
+import {
+  ServerStyleSheet,
+  StyleSheetManager,
+  ThemeProvider,
+} from 'styled-components';
 
-export default function StyledAntdRegistry({
+export function StyledAntdRegistry({
   children,
 }: {
   children: React.ReactNode;
@@ -27,4 +32,8 @@ export default function StyledAntdRegistry({
       <AntdRegistry>{children}</AntdRegistry>
     </StyleSheetManager>
   );
+}
+
+export function ThemeClient({ children }: { children: React.ReactNode }) {
+  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
 }

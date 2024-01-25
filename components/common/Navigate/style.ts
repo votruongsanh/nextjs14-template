@@ -9,4 +9,9 @@ export const Wrapper = styled.div`
   width: 100%;
   background: rgb(255, 255, 255);
   border-top: 1px solid rgb(236, 236, 233);
+  color: ${(props) => props.theme.colors.primary};
+  height: 100px;
+  font-family: ${(props) => props.theme.font.bold};
+
+  font-size: 20px;
 `;

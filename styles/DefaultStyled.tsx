@@ -8,5 +8,7 @@ const Container = styled.div`
   width: 100%;
   min-height: 100vh;
   transition: margin-top 0.5s ease 0s;
+  font-size: 20px;
+  font-family: ${(props) => props.theme.font.regular};
 `;
 export { Container };

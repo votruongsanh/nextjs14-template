@@ -3,6 +3,46 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
+
+ @font-face {
+    font-family: 'SUITv1Bold';
+    src: url('/fonts/SUITv1-Bold.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'SUITv1ExtraBold';
+    src: url('/fonts/SUITv1-ExtraBold.otf') format('opentype');
+  }
+   @font-face {
+    font-family: 'SUITv1ExtraLight';
+    src: url('/fonts/SUITv1-ExtraLight.otf') format('opentype');
+  }
+   @font-face {
+    font-family: 'SUITv1Heavy';
+    src: url('/fonts/SUITv1-Heavy.otf') format('opentype');
+  }
+   @font-face {
+    font-family: 'SUITv1Light';
+    src: url('/fonts/SUITv1-Light.otf') format('opentype');
+  }
+   @font-face {
+    font-family: 'SUITv1Medium';
+    src: url('/fonts/SUITv1-Medium.otf') format('opentype');
+  }
+   @font-face {
+    font-family: 'SUITv1Regular';
+    src: url('/fonts/SUITv1-Regular.otf') format('opentype');
+  }
+   @font-face {
+    font-family: 'SUITv1SemiBold';
+    src: url('/fonts/SUITv1-SemiBold.otf') format('opentype');
+  }
+   @font-face {
+    font-family: 'SUITv1Thin';
+    src: url('/fonts/SUITv1-Thin.otf') format('opentype');
+  } 
+ 
+  
+
   * {
     margin: 0;
     padding: 0;
@@ -20,7 +60,8 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     /* carrega a fonte padrão por sistema operacional */
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family:'SUITv1Regular';
   }
 
   a, button {
