@@ -62,6 +62,7 @@ const GlobalStyles = createGlobalStyle`
     /* carrega a fonte padrão por sistema operacional */
     /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     font-family:'SUITv1Regular';
+    background-color: gray;
   }
 
   a, button {

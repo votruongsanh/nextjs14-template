@@ -12,6 +12,5 @@ export const Wrapper = styled.div`
   color: ${(props) => props.theme.colors.primary};
   height: 100px;
   font-family: ${(props) => props.theme.font.bold};
-
   font-size: 20px;
 `;

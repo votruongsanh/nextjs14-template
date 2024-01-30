@@ -13,7 +13,7 @@ const Link = ({ href, as, children }: LinkProps) => {
   if (internal) {
     return (
       <NextLink href={href} as={as}>
-        <a>{children}</a>
+        {children}
       </NextLink>
     );
   }
