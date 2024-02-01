@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'SUITv1Bold';
+  src: url('../styles/fonts/SUITv1-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SUITv1ExtraBold';
+  src: url('../styles/fonts/SUITv1-ExtraBold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SUITv1ExtraLight';
+  src: url('../styles/fonts/SUITv1-ExtraLight.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SUITv1Heavy';
+  src: url('../styles/fonts/SUITv1-Heavy.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SUITv1Light';
+  src: url('../styles/fonts/SUITv1-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SUITv1Medium';
+  src: url('../styles/fonts/SUITv1-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SUITv1Regular';
+  src: url('../styles/fonts/SUITv1-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SUITv1SemiBold';
+  src: url('../styles/fonts/SUITv1-SemiBold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SUITv1Thin';
+  src: url('../styles/fonts/SUITv1-Thin.otf') format('opentype');
+}

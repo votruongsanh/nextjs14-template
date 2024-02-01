@@ -1,6 +1,4 @@
-import { type DefaultTheme } from 'styled-components';
-
-export const theme: DefaultTheme = {
+export const theme = {
   font: {
     bold: 'SUITv1Bold',
     extraBold: 'SUITv1ExtraBold',

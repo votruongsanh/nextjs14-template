@@ -1,5 +1,5 @@
-import { useTranslation } from '@/app/i18n';
 import { Footer } from '@/components/common/Footer';
+import { useTranslation } from '@/i18n';
 import Link from 'next/link';
 
 interface PageProps {
