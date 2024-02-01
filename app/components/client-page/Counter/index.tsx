@@ -1,7 +1,7 @@
 'use client';
 
-import { useTranslation } from '@/app/i18n/client';
 import Link from '@/components/common/Link';
+import { useTranslation } from '@/i18n/client';
 import { useState } from 'react';
 
 const Counter = ({ lng }: { lng: any }) => {
