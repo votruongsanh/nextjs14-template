@@ -1,4 +1,4 @@
-import { cookieName, fallbackLng, languages } from '@/app/i18n/settings';
+import { cookieName, fallbackLng, languages } from '@/i18n/settings';
 import acceptLanguage from 'accept-language';
 import { NextResponse } from 'next/server';
 
